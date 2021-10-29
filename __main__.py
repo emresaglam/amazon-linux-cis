@@ -240,6 +240,7 @@ def configure_host_network_params():
         'net.ipv4.ip_forward': '0',
         'net.ipv4.conf.all.send_redirects': '0',
         'net.ipv4.conf.default.send_redirects': '0',
+        'net.ipv6.conf.all.forwarding': '0'
     }).write()
 
 
